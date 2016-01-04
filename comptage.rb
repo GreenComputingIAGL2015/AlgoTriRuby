@@ -34,7 +34,7 @@ n = gets.to_i;
 tab = Array.new(n);
 indiceMax = n-1;
 for i in (0..indiceMax) do
-	tab[i] = rand(100);
+	tab[i] = rand(n);
 end
 tc = TrieurComptage.new(tab);
 puts tc.tab.to_s
