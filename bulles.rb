@@ -32,5 +32,5 @@ for i in (0..indiceMax) do
 	tab[i] = rand(n);
 end
 tc = TrieurBulles.new(tab);
-puts tc.tab.to_s;
-puts tc.trier.to_s;
+tc.tab.display;
+tc.trier.display;
