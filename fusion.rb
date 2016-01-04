@@ -36,5 +36,5 @@ for i in (0..indiceMax) do
 	tab[i] = rand(100);
 end
 tc = TrieurFusion.new(tab);
-tc.tab;
-tc.trier;
+puts tc.tab.to_s;
+puts tc.trier.to_s;
